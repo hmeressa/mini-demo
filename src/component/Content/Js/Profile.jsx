@@ -9,7 +9,6 @@ function Profile() {
             <div className="container">
                 <h2 className="section-title">Profile</h2>
                 <div className="profile-content">
-                    <img src="../img/testImage.png" alt="Profile" className="profile-picture" />
                     <p className="profile-bio">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Sed quis tristique neque, ac fringilla libero.
