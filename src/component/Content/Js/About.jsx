@@ -8,7 +8,7 @@ function About() {
             <div className="container">
                 <h2 className="section-title">About Me</h2>
                 <div className="about-content">
-                    <img src="profile-pic.jpg" alt="Profile" className="profile-picture" />
+                    <img src="../img/testImage.png" alt="Profile" className="profile-picture" />
                     <p className="bio">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tristique neque, ac fringilla libero. 
                         Phasellus sit amet felis vitae arcu vestibulum tincidunt.

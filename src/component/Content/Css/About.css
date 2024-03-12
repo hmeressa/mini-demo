@@ -1,8 +1,9 @@
 /* About.css */
 
 .about-section {
+    margin-top: 130px;
     background-color: #f9f9f9;
-    padding: 50px 0;
+    padding: 5px 0;
 }
 
 .container {

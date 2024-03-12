@@ -1,5 +1,5 @@
 .header {
-        background-color: #0a0101;
+        background-color: #090606;
         color: #fff;
         padding: 20px 0;
         text-align: center;
@@ -12,6 +12,7 @@
         text-align: center;
         border-bottom-left-radius: 80px;
         border-bottom-right-radius: 80px;
+        box-shadow: 0 2px 5px rgba(101, 106, 107, 0.2);
 }
 
 .container {
