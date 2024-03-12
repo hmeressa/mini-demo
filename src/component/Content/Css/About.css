@@ -14,7 +14,7 @@
 
 .section-title {
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     margin-bottom: 30px;
 }
 
@@ -34,4 +34,5 @@
     font-size: 18px;
     line-height: 1.6;
     color: #333;
+    text-align: justify;
 }

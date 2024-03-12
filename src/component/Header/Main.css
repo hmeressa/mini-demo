@@ -1,14 +1,13 @@
 .header {
         background-color: #090606;
         color: #fff;
-        padding: 20px 0;
         text-align: center;
         position: fixed;
         width: 100%;
         top: 0;
         z-index: 1000;
         transition: background-color 0.3s ease;
-        padding: 40px 0;
+        padding: 20px 0;
         text-align: center;
         border-bottom-left-radius: 80px;
         border-bottom-right-radius: 80px;

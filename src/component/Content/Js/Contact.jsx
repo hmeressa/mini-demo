@@ -1,33 +1,71 @@
-// Contact.js
+// ContactForm.js
 
 import React from 'react';
-import '../Css/Contact.css'; // Import CSS file for styling
+import { Form, Input, Button } from 'antd';
 
-function Contact() {
+function ContactForm() {
+  const onFinish = (values) => {
+    console.log('Submitted values:', values);
+  };
+
     return (
-        <section id="contact" className="contact-section">
-            <div className="container">
-                <h2 className="section-title">Contact</h2>
-                <div className="contact-content">
-                    <div className="contact-info">
-                        <div className="contact-item">
-                            <label htmlFor="name">Name:</label>
-                            <input type="text" id="name" name="name" />
-                        </div>
-                        <div className="contact-item">
-                            <label htmlFor="email">Email:</label>
-                            <input type="text" id="email" name="email" />
-                        </div>
-                        <div className="contact-item">
-                            <label htmlFor="message">Message:</label>
-                            <textarea id="message" name="message"></textarea>
-                        </div>
-                        <button className="contact-submit" type="submit">Submit</button>
-                    </div>
-                </div>
+        <>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
+      <Form
+        name="contact_form"
+        onFinish={onFinish}
+        layout="vertical"
+        style={{ width: 600 }}>
+        <h2 className="section-title">Contact</h2>
+        <Form.Item
+          label="Name"
+          name="name"
+          rules={[
+            {
+              required: true,
+              message: 'Please input your name!',
+            },
+          ]}
+        >
+          <Input />
+        </Form.Item>
+
+        <Form.Item
+          label="Email"
+          name="email"
+          rules={[
+            {
+              required: true,
+              type: 'email',
+              message: 'Please input a valid email address!',
+            },
+          ]}
+        >
+          <Input />
+        </Form.Item>
+
+        <Form.Item
+          label="Message"
+          name="message"
+          rules={[
+            {
+              required: true,
+              message: 'Please input your message!',
+            },
+          ]}
+        >
+          <Input.TextArea rows={3} />
+        </Form.Item>
+
+        <Form.Item style={{ textAlign: 'center' }}>
+          <Button type="primary" htmlType="submit" style={{ width: '100%' }}>
+            Submit
+          </Button>
+        </Form.Item>
+      </Form>
             </div>
-        </section>
-    );
+            </>
+  );
 }
 
-export default Contact;
+export default ContactForm;

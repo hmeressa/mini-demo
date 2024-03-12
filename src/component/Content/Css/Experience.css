@@ -33,6 +33,7 @@
     font-size: 18px;
     line-height: 1.6;
     color: #333;
+    text-align: justify;
 }
 
 .experience-item {
@@ -42,6 +43,7 @@
 .experience-title {
     font-size: 24px;
     margin-bottom: 10px;
+    
 }
 
 .experience-date {

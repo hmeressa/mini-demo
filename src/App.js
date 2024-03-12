@@ -8,6 +8,7 @@ import Experience from './component/Content/Js/Experience';
 import Skill from './component/Content/Js/Skill';
 import Project from './component/Content/Js/Project';
 import Contact from './component/Content/Js/Contact';
+import Footer from './component/Content/Js/Footer';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <div className="component-container">
         <Contact />
       </div>
+      <Footer/>
     </div>
   );
 }
