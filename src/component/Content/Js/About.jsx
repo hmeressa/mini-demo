@@ -1,23 +1,20 @@
-// About.js
 import React from 'react';
-import '../Css/About.css'; 
-import ABOUT from '../../../Threejs/About';
+import '../Css/About.css';
 
-function About() {
+const About = () => {
     return (
         <section id="about" className="about-section">
             <div className="container">
                 <h2 className="section-title">About Me</h2>
                 <div className="about-content">
                     <img src="../img/testImage.png" alt="Profile" className="profile-picture" />
-                    <p className="bio" >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tristique neque, ac fringilla libero. 
-                        Phasellus sit amet felis vitae arcu vestibulum tincidunt.
-                    </p>
-                    <p className="bio">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tristique neque, ac fringilla libero. 
-                        Phasellus sit amet felis vitae arcu vestibulum tincidunt.
-                    </p>
+                    <div className="bio">
+                        <p>
+                            Hello, I'm <b>Hiluf Meressa,</b> a passionate and dedicated <b>Software Developer</b>. 
+                            I have a strong background in <b>Software Engineering</b> and love crafting 
+                            innovative solutions to complex problems.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>

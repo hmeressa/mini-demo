@@ -3,7 +3,7 @@
 import React from 'react';
 import { Form, Input, Button } from 'antd';
 
-function ContactForm() {
+const Contact = ()=> {
   const onFinish = (values) => {
     console.log('Submitted values:', values);
   };
@@ -68,4 +68,4 @@ function ContactForm() {
   );
 }
 
-export default ContactForm;
+export default Contact;

@@ -3,7 +3,7 @@
 import React from 'react';
 import '../Css/Project.css'; // Import CSS file for styling
 
-function Project() {
+const Project = ()=> {
     return (
         <section id="projects" className="projects-section">
             <div className="container">

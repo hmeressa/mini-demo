@@ -3,7 +3,7 @@
 import React from 'react';
 import '../Css/Profile.css'; // Import CSS file for styling
 
-function Profile() {
+const Profile = ()=> {
     return (
         <section id="profile" className="profile-section">
             <div className="container">

@@ -5,7 +5,7 @@ function Main() {
     return (
         <header className="header">
             <div className="container">
-                <h1 className="header-title">Developer Name - Developer</h1>
+                <h1 className="header-title">Developer Name - Jr. Developer</h1>
             </div>
         </header>
     );

@@ -18,9 +18,6 @@ function App() {
         <About />
       </div>
       <div className="component-container">
-        <Profile />
-      </div>
-      <div className="component-container">
         <Experience />
       </div>
       <div className="component-container">
@@ -28,6 +25,9 @@ function App() {
       </div>
       <div className="component-container">
         <Project />
+      </div>
+      <div className="component-container">
+        <Profile />
       </div>
       <div className="component-container">
         <Contact />

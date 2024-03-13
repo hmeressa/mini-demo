@@ -1,17 +1,16 @@
 .header {
-        background-color: #090606;
-        color: #fff;
-        text-align: center;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        z-index: 1000;
-        transition: background-color 0.3s ease;
-        padding: 40px 0;
-        text-align: center;
-        border-bottom-left-radius: 80px;
-        border-bottom-right-radius: 80px;
-        box-shadow: 0 2px 5px rgba(101, 106, 107, 0.2);
+    background-color: #0778b0;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    padding: 40px 0;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    box-shadow: 0 2px 5px rgba(101, 106, 107, 0.2);
 }
 
 .container {
@@ -21,8 +20,14 @@
 }
 
 .header-title {
-    font-size: 30px;
-    margin-bottom: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    /* Example font family */
+    color: #fff;
+    /* Example font color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Example text shadow */
 }
 
 .header-tagline {
