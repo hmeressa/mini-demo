@@ -1,5 +1,5 @@
 .header {
-    background-color: #0778b0;
+    background-color: #038acd;
     color: #fff;
     text-align: center;
     position: fixed;
@@ -10,7 +10,7 @@
     padding: 40px 0;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
-    box-shadow: 0 2px 5px rgba(101, 106, 107, 0.2);
+    box-shadow: 0 2px 2px rgb(58, 59, 57)
 }
 
 .container {
@@ -23,11 +23,13 @@
     font-size: 20px;
     margin-bottom: 10px;
     font-family: Arial, sans-serif;
-    /* Example font family */
-    color: #fff;
-    /* Example font color */
+    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Example text shadow */
+    float: right;
+    min-height: 20px;
+    /* Set a minimum height */
+    display: inline-block;
+    /* Ensure the element takes up space even when empty */
 }
 
 .header-tagline {
