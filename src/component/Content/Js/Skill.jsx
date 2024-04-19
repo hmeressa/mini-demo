@@ -29,7 +29,7 @@ const Skill = ()=> {
                         <img src="../img/redux.png" alt="Redux" className="skill-icon" title="Redux" />
                         <img src="../img/kubernetes.jpeg" alt="Kubernetes" className="skill-icon" title="Kubernetes" />
                         <img src="../img/css.png" alt="CSS" className="skill-icon" title="CSS" />
-                        <img src="../img/algorithm.jpeg" alt="Algorithm" className="skill-icon" title="CSS" />
+                        {/* <img src="../img/algorithm.jpeg" alt="Algorithm" className="skill-icon" title="CSS" /> */}
                     </div>
                 </div>
             </div>

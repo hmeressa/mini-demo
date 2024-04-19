@@ -41,3 +41,13 @@
   /* margin-bottom: 20px; */
   /* Adjust as needed */
 }
+
+body {
+  background-color: white;
+  /* Initial background color */
+}
+
+.black-and-white {
+  filter: grayscale(100%);
+  /* Convert to black and white */
+}

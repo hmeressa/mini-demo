@@ -9,31 +9,42 @@ import Skill from './component/Content/Js/Skill';
 import Project from './component/Content/Js/Project';
 import Contact from './component/Content/Js/Contact';
 import Footer from './component/Content/Js/Footer';
+import { useState } from 'react';
 
 function App() {
+  const [isBlackAndWhite, setIsBlackAndWhite] = useState(false);
+
+  const toggleBackground = () => {
+    setIsBlackAndWhite(!isBlackAndWhite);
+  };
   return (
-    <div className="App">
-      <Main />
-      <div className="component-container">
-        <About />
+    <>
+      <div className={`container ${isBlackAndWhite ? 'black-and-white' : ''}`}>
+        <button onClick={toggleBackground}>Toggle Background</button>
       </div>
-      <div className="component-container">
-        <Experience />
+      <div className="App">
+        <Main />
+        <div className="component-container">
+          <About />
+        </div>
+        <div className="component-container">
+          <Experience />
+        </div>
+        <div className="component-container">
+          <Skill />
+        </div>
+        <div className="component-container">
+          <Project />
+        </div>
+        <div className="component-container">
+          <Profile />
+        </div>
+        <div className="component-container">
+          <Contact />
+        </div>
+        <Footer />
       </div>
-      <div className="component-container">
-        <Skill />
-      </div>
-      <div className="component-container">
-        <Project />
-      </div>
-      <div className="component-container">
-        <Profile />
-      </div>
-      <div className="component-container">
-        <Contact />
-      </div>
-      <Footer/>
-    </div>
+    </>
   );
 }
 

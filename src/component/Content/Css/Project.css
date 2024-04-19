@@ -30,10 +30,13 @@
 .project-title {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: justify;        
 }
 
 .project-description {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
+    text-transform:none;
+    text-align: justify;
 }
